@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "743533460998",
+    "firebase_url": "https://irate-1433e.firebaseio.com",
+    "project_id": "irate-1433e",
+    "storage_bucket": "irate-1433e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743533460998:android:4fadaf766026772f8bcd87",
+        "android_client_info": {
+          "package_name": "com.example.irate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743533460998-u82nlhh1kpbcp1ob6abfgq948o9r4510.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa51orlT5VJfJIONiHfEqJ3cPgsYpUTgU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743533460998-u82nlhh1kpbcp1ob6abfgq948o9r4510.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

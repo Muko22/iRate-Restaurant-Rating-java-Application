@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.irate">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IRate">
+        <activity android:name=".User.AllRatings"></activity>
+        <activity android:name=".User.RestaurantType" />
+        <activity android:name=".User.MyRatings" />
+        <activity android:name=".Common.SignIn" />
+        <activity android:name=".Common.SignUp" />
+        <activity android:name=".User.EditRating" />
+        <activity android:name=".User.Rating" />
+        <activity android:name=".User.Search" />
+        <activity android:name=".User.Home" />
+        <activity android:name=".User.AddRating" />
+        <activity android:name=".Common.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

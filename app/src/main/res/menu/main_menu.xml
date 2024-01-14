@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_myratings"
+            android:icon="@drawable/ic_layers"
+            android:title="My Ratings" />
+
+        <item
+            android:id="@+id/nav_allratings"
+            android:icon="@drawable/ic_baseline_border_all_24"
+            android:title="All Ratings" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit"
+            android:title="Logout" />
+
+    </group>
+
+</menu>

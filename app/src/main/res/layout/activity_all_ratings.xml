@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_background"
+    android:orientation="vertical"
+    tools:context=".User.AllRatings">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:elevation="8dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/all_ratings_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/raleway_bold"
+            android:padding="5dp"
+            android:text="All Ratings"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/all_ratings_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/home_background" />
+
+            <TextView
+                android:id="@+id/all_ratings_no_ratings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No ratings have been submitted"
+                android:textSize="20sp"
+                android:layout_centerHorizontal="true"
+                android:visibility="invisible"
+                android:fontFamily="@font/raleway"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>
